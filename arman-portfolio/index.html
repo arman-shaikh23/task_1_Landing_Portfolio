@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arman Shaikh | Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Arman Shaikh, a passionate Full Stack Developer, Java Spring Boot Developer, and MERN Stack Developer.">
+    
+    <!-- Google Fonts: Outfit and Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Mouse Follower & Canvas Background -->
+    <div class="cursor-glow"></div>
+    <canvas id="particles"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Arman<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-padding">
+            <div class="hero-content reveal">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Arman Shaikh</h1>
+                <h2 class="typing-container">
+                    <span class="typing-text"></span><span class="cursor">|</span>
+                </h2>
+                <p class="hero-desc">
+                    Full Stack Developer | Java Developer | MERN Stack Developer
+                </p>
+                <div class="hero-buttons">
+                    <a href="./Arman-resume.pdf" download="Arman-resume.pdf" class="btn btn-primary neon-glow">Download Resume</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image reveal-right">
+                <div class="blob-wrapper">
+                    <img src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?q=80&w=600&auto=format&fit=crop" alt="Arman Shaikh - Software Engineer" class="profile-img" style="border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;">
+                    <!-- Floating Icons -->
+                    <div class="floating-icon icon-1"><i class="fab fa-react"></i></div>
+                    <div class="floating-icon icon-2"><i class="fab fa-java"></i></div>
+                    <div class="floating-icon icon-3"><i class="fab fa-node-js"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="section-title reveal">
+                <h2>About <span>Me</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-container">
+                <div class="about-text glass-card reveal-up">
+                    <p>I am a <strong>Computer Science Engineering</strong> student currently pursuing my <strong>7th Semester</strong> with a CGPA of <strong>8.93</strong> till the 6th semester.</p>
+                    <p>I am passionate about Full Stack Development, Java Backend Development, MERN Stack Applications, Machine Learning, and building real-world software solutions.</p>
+                    <p>I enjoy solving coding challenges, designing scalable systems, and creating user-friendly applications that solve practical problems.</p>
+                    
+                    <div class="contact-info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <span>India</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Degree</h4>
+                                <span>B.Tech IT</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section-padding">
+            <div class="section-title reveal">
+                <h2>My <span>Education</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card tilt-card">
+                        <h3>Bachelor of Engineering</h3>
+                        <h4>Computer Science and Engineering</h4>
+                        <div class="edu-details">
+                            <p><i class="fas fa-calendar-alt"></i> Current Semester: <strong>7th Semester</strong></p>
+                            <p><i class="fas fa-chart-line"></i> CGPA: <strong>8.93</strong></p>
+                            <p><i class="fas fa-spinner fa-spin"></i> Status: <strong>Pursuing</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding">
+            <div class="section-title reveal">
+                <h2>Technical <span>Skills</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-container">
+                
+                <!-- Category 1 -->
+                <div class="skill-category glass-card reveal-up">
+                    <h3><i class="fas fa-code"></i> Languages & Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Java</span><span>90%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>JavaScript</span><span>85%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>HTML/CSS</span><span>95%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>React</span><span>80%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Python</span><span>75%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="skill-category glass-card reveal-up" style="transition-delay: 0.2s">
+                    <h3><i class="fas fa-server"></i> Backend & Database</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Spring Boot</span><span>85%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Node.js / Express</span><span>80%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>MySQL</span><span>85%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>MongoDB</span><span>75%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="skill-category glass-card reveal-up" style="transition-delay: 0.4s">
+                    <h3><i class="fas fa-tools"></i> Tools & ML</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Firebase</span>
+                    </div>
+                    <h4 style="margin-top: 1.5rem; color: var(--text-color);">Machine Learning</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Linear Regression</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">Model Training</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="section-title reveal">
+                <h2>Featured <span>Projects</span></h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card tilt-card reveal-up">
+                    <div class="project-content">
+                        <h3>GarmentShop</h3>
+                        <p class="subtitle">E-Commerce Management System</p>
+                        <p class="desc">Developed a complete garment store management and e-commerce platform that allows users to browse products, manage carts, place orders, and track purchases. Implemented secure backend APIs using Spring Boot and integrated MySQL.</p>
+                        <div class="tech-stack">
+                            <span>React.js</span>
+                            <span>Java Spring Boot</span>
+                            <span>MySQL</span>
+                        </div>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Product Management & Inventory</li>
+                            <li><i class="fas fa-check"></i> Shopping Cart & Order Processing</li>
+                            <li><i class="fas fa-check"></i> User Auth & Admin Dashboard</li>
+                        </ul>
+                        <div class="project-links">
+                            <!-- <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card tilt-card reveal-up" style="transition-delay: 0.2s">
+                    <div class="project-content">
+                        <h3>Civic Issue Tracker</h3>
+                        <p class="subtitle">Civic Reporting & Resolution System</p>
+                        <p class="desc">Built a civic engagement platform that allows citizens to report issues such as potholes, garbage collection problems, drainage issues, and streetlight failures. Enables authorities to track, assign, and resolve complaints efficiently.</p>
+                        <div class="tech-stack">
+                            <span>MongoDB</span>
+                            <span>Express.js</span>
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                        </div>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Issue Reporting & Location Tracking</li>
+                            <li><i class="fas fa-check"></i> Admin Dashboard & Contractor Assignment</li>
+                            <li><i class="fas fa-check"></i> Status Tracking & Feedback System</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card tilt-card reveal-up" style="transition-delay: 0.4s">
+                    <div class="project-content">
+                        <h3>Hate Speech Detection</h3>
+                        <p class="subtitle">Machine Learning Platform</p>
+                        <p class="desc">Developed a hate speech detection platform that analyzes user-generated text and predicts potentially harmful or offensive content. Integrated a machine learning model with a MERN Stack web application for real-time analysis.</p>
+                        <div class="tech-stack">
+                            <span>MERN Stack</span>
+                            <span>Linear Regression</span>
+                            <span>Python</span>
+                        </div>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Text Classification & Harmful Content Detection</li>
+                            <li><i class="fas fa-check"></i> Real-Time Prediction API</li>
+                            <li><i class="fas fa-check"></i> User Dashboard & Admin Monitoring</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements section-padding">
+            <div class="section-title reveal">
+                <h2>My <span>Achievements</span></h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="stats-container reveal-up">
+                <div class="stat-box glass-card tilt-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3 class="counter" data-target="8.93">0</h3>
+                    <p>Current CGPA</p>
+                </div>
+                <div class="stat-box glass-card tilt-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3 class="counter" data-target="3">0</h3>
+                    <p>Major Projects</p>
+                </div>
+                <div class="stat-box glass-card tilt-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Full Stack</h3>
+                    <p>Developer</p>
+                </div>
+                <div class="stat-box glass-card tilt-card">
+                    <i class="fab fa-java"></i>
+                    <h3>Spring Boot</h3>
+                    <p>Developer</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume section-padding">
+            <div class="resume-container glass-card reveal">
+                <div class="resume-content">
+                    <h2>Want to know more about my experience?</h2>
+                    <p>Download my resume to get full details about my academic background, technical skills, and project experiences.</p>
+                    <div class="resume-buttons">
+                        <a href="Arman-resume.pdf" download="Arman-resume.pdf" class="btn btn-primary neon-glow"><i class="fas fa-download"></i> Download Resume</a>
+                        <a href="Arman-resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i class="fas fa-eye"></i> View Resume</a>
+                    </div>
+                </div>
+                <div class="resume-icon">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="section-title reveal">
+                <h2>Get In <span>Touch</span></h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="contact-container glass-card reveal-up">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/arman-shaikh23" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/arman-shaikh-02a468285/" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:shiakharman2337@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="subject" required placeholder=" ">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block neon-glow">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Arman Shaikh</p>
+            <p>Designed and Developed with <i class="fas fa-heart heart-icon"></i> using HTML, CSS and JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
