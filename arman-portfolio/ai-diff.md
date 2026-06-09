@@ -1,4 +1,4 @@
-# AI Model Comparison Report: ChatGPT vs. Claude vs. Gemini (2025 Edition)
+# AI Model Comparison Report: ChatGPT vs. Claude vs. Gemini 
 
 This report evaluates the three leading Large Language Models (LLMs)—**ChatGPT (GPT-4o/o3)**, **Claude (3.5 Sonnet/Opus)**, and **Gemini (1.5 Pro)**—across five identical prompts designed to test specific capabilities: coding, reasoning, creativity, long-context handling, and instruction following.
 
@@ -80,4 +80,4 @@ This report evaluates the three leading Large Language Models (LLMs)—**ChatGPT
 *   **Choose Gemini 1.5 Pro** if you are a **Researcher or Data Analyst**. If you need to "chat" with an hour-long video, a massive codebase, or 100+ PDFs simultaneously, Gemini has no competition.
 
 ---
-*Generated for the Arman Portfolio AI Insights - June 2026*
+
